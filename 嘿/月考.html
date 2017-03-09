@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+		<title>月考web</title>
+		<link rel="stylesheet" type="text/css" href="css/month.css" />
+		<link rel="stylesheet" type="text/css" href="css/swiper.min.css"/>
+		<script src="js/swiper.min.js"></script>
+		<script src="js/jquery-3.1.1.js"></script>
+	</head>
+
+	<body>
+		<div class="wrap">
+			<header>
+				<div class="head">
+					<div class="head_left">
+						<div class="left"><img src="images/month_03.gif" /></div>
+						<div class="center"><input type="text" placeholder="搜索或输入网址" /></div>
+						<div class="right"><img src="images/month_05.gif" /></div>
+					</div>
+					<div class="head_right">
+						<img src="images/month_07.gif" />
+					</div>
+				</div>
+			</header>
+			<section class="yxd">
+			<div class="text">
+				<div class="nav">
+					<div class="nav_left">
+					<div class="swiper-container">
+				        <div class="swiper-wrapper">
+				            <div class="swiper-slide">推荐</div>
+				            <div class="swiper-slide">热点</div>
+				            <div class="swiper-slide">推荐</div>
+				            <div class="swiper-slide">推荐</div>
+				            <div class="swiper-slide">推荐</div>
+				            <div class="swiper-slide">推荐</div>
+				            <div class="swiper-slide">推荐</div>
+				            <div class="swiper-slide">推荐</div>
+				            <div class="swiper-slide">推荐</div>
+							<div class="swiper-slide">推荐</div>
+					    </div>
+					    </div>
+			     </div>
+					<div class="nav_right"><img src="images/month_15.gif" /></div>
+				</div>
+				<div class="main">
+					<div class="one">
+						<h2>厚度更丰富和绝大部分古尔邦元和等会等会霍建华度股份</h2>
+						<ul>
+							<li><img src="images/month_20.gif" /></li>
+							<li><img src="images/month_22.gif" /></li>
+							<li><img src="images/month_24.gif" /></li>
+						</ul>
+						<div class="one_bottom">
+							<div class="p_left">
+								<span>澎湃</span> <span>刚刚</span> <b>热</b>
+							</div>
+							<div class="p_right"><img src="images/month_30.gif" /></div>
+						</div>
+					</div>
+					<div class="one">
+						<h2>亲爱的你真漂亮，爱你么么哒。</h2>
+						<div class="banner">
+							<!---->
+							 <div class="swiper-container">
+						        <div class="swiper-wrapper">
+						            <div class="swiper-slide"><img src="images/4.jpg"/></div>
+						            <div class="swiper-slide"><img src="images/9.jpg"/></div>
+						            <div class="swiper-slide"><img src="images/1.jpg"/></div>
+						            <div class="swiper-slide"><img src="images/3.jpg"/></div>
+						            <div class="swiper-slide"><img src="images/2.jpg"/></div>
+						            
+						        </div>
+						    </div>
+							<!---->
+						</div>
+						<div class="one_bottom">
+							<div class="p_left">
+								<span>刘晓港</span> <span>永远</span> <b>爱你</b>
+							</div>
+							<div class="p_right"><img src="images/month_30.gif" /></div>
+						</div>
+					</div>
+					<div class="one">
+						<h2>厚度更丰富和绝大部分古尔邦元和等会等会霍建华度股份</h2>
+						<ul>
+							<li><img src="images/month_20.gif" /></li>
+							<li><img src="images/month_22.gif" /></li>
+							<li><img src="images/month_24.gif" /></li>
+						</ul>
+						<div class="one_bottom">
+							<div class="p_left">
+								<span>澎湃</span> <span>刚刚</span> <b>热</b>
+							</div>
+							<div class="p_right"><img src="images/month_30.gif" /></div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="text2">2</div>
+			<div class="text3">3</div>
+			<div class="text3">4</div>
+			</section>
+			<footer>
+				<dl class="color_style">
+					<dt><img src="images/month_36.gif"/></dt>
+					<dd>热点</dd>
+				</dl>
+				<dl>
+					<dt><img src="images/month_38.gif"/></dt>
+					<dd>搜索</dd>
+				</dl>
+				<dl>
+					<dt><img src="images/month_40.gif"/></dt>
+					<dd>视频</dd>
+				</dl>
+				<dl>
+					<dt><img src="images/month_42.gif"/></dt>
+					<dd>我的</dd>
+				</dl>
+			</footer>
+		</div>
+	</body>
+
+</html>
+<script type="text/javascript">
+  var swiper = new Swiper('.swiper-container', {
+        pagination: '.swiper-pagination',
+        slidesPerView: 6,
+        paginationClickable: true,
+        spaceBetween: 0,
+        freeMode: true
+    });
+	 var swiper = new Swiper('.banner .swiper-container', {
+		pagination: '.swiper-pagination',
+		
+		paginationClickable: true,
+		spaceBetween: 30,
+		centeredSlides: true,
+		autoplay: 1000,
+		autoplayDisableOnInteraction: false
+	});
+	
+	$("footer>dl").on("click",function(){
+//		console.log($(this).index());
+		var index = $(this).index();
+		$(".yxd>div").hide().eq(index).show();
+		$(this).addClass("color_style").siblings().removeClass();
+		
+	})
+	
+</script>
+
+
+
+
+
+
+
+
+
+
+
