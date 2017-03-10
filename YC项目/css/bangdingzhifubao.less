@@ -21,7 +21,7 @@ html,body{
         padding: 0 11px;
         position: relative;
         border-bottom: 1px solid #bfbfbf;
-        .tixian_h_left{
+        .bangding_h_left{
             position: absolute;
             left: 11px;
             top: 13px;
@@ -29,7 +29,7 @@ html,body{
                 .full(auto,18px,none);
             }
         }
-        .tixian_h_center{
+        .bangding_h_center{
             font-size: 16px;
             color: #232323;
             -webkit-box-flex: 1;
@@ -37,7 +37,7 @@ html,body{
             line-height: 45px;
             font-weight: bold;
         }
-        .tixian_h_right{
+        .bangding_h_right{
             position: absolute;
             right: 11px;
             top: 13px;
@@ -52,28 +52,46 @@ html,body{
         .news{
             width: 100%;
             background: #f2f2f2;
-            p:nth-child(1){
-                .full(100%,32px,none);
-                line-height: 30px;
-                font-size: 12px;
-                color: #999999;
-                padding: 0 11px;
-            }
-            p:nth-child(2){
-                .full(100%,38px,#ffffff);
-                padding: 0 11px;
-                border-top: 1px solid #cdcdcd;
-                border-bottom: 1px solid #cdcdcd;
-                line-height: 38px;
-                color: #5b5b5b;
-                font-size: 14px;
-                input{
-                    width: 74%;
-                    border: none;
-                    outline: none;
+            .zhifu{
+                margin-top: 5px;
+                border-top: 1px solid #cccccc;
+                border-bottom: 1px solid #cccccc;
+                padding-left: 11px;
+                background: #ffffff;
+                p:nth-child(1){
+                    .full(100%,38px,#ffffff);
+                    border-bottom: 1px solid #cccccc;
+                    line-height: 38px;
+                    color: #666666;
+                    font-size: 15px;
+                    input{
+                        width: 60%;
+                        border: none;
+                        outline: none;
+                    }
+                }
+                p:nth-child(2){
+                    .full(100%,38px,#ffffff);
+                    line-height: 38px;
+                    color: #666666;
+                    font-size: 15px;
+                    input{
+                        width: 35%;
+                        border: none;
+                        outline: none;
+                    }
+                    span{
+                        float: right;
+                        display: inline-block;
+                        .full(80px,38px,none);
+                        border-left: 1px solid #cccccc;
+                        text-align: center;
+                        font-size: 13px;
+                        color: #343434;
+                    }
                 }
             }
-            p:nth-child(3){
+            #btn{
                 padding: 0 11px;
                 button{
                     margin-top: 20px;
