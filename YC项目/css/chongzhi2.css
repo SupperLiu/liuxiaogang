@@ -1,0 +1,130 @@
+@import url(reset.css);
+html,
+body {
+  width: 100%;
+  height: 100%;
+}
+.wrapper {
+  width: 100%;
+  height: 100%;
+  background: #f2f2f2;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+}
+.wrapper header {
+  width: 100%;
+  height: 45px;
+  background: #f7f7f7;
+  display: -webkit-box;
+  -webkit-box-orient: horizontal;
+  padding: 0 11px;
+  position: relative;
+  border-bottom: 1px solid #bfbfbf;
+}
+.wrapper header .chongzhi_h_left {
+  position: absolute;
+  left: 11px;
+  top: 13px;
+}
+.wrapper header .chongzhi_h_left img {
+  width: auto;
+  height: 18px;
+  background: none;
+}
+.wrapper header .chongzhi_h_center {
+  font-size: 16px;
+  color: #232323;
+  -webkit-box-flex: 1;
+  text-align: center;
+  line-height: 45px;
+  font-weight: bold;
+}
+.wrapper section {
+  -webkit-box-flex: 1;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+}
+.wrapper section .news {
+  width: 100%;
+  margin-top: 5px;
+}
+.wrapper section .news ul {
+  padding: 11px 11px 0 11px;
+  width: 100%;
+  background: #ffffff;
+}
+.wrapper section .news ul li {
+  line-height: 22px;
+  color: #666666;
+  font-size: 12px;
+}
+.wrapper section .news ul li span {
+  color: #ff811d;
+}
+.wrapper section .news .phone {
+  width: 100%;
+  background: #ffffff;
+  margin-top: 5px;
+}
+.wrapper section .news .phone h4 {
+  width: 100%;
+  height: 30px;
+  background: none;
+  line-height: 30px;
+  padding: 0 11px;
+  font-size: 12px;
+  color: #676767;
+}
+.wrapper section .news .phone .chongzhi {
+  width: 100%;
+  height: 40px;
+  background: none;
+  display: -webkit-box;
+  -webkit-box-orient: horizontal;
+  padding: 0 11px;
+  position: relative;
+  border-top: 1px solid #f2f2f2;
+}
+.wrapper section .news .phone .chongzhi .chongzhi_p_left {
+  position: absolute;
+  left: 11px;
+  top: 6px;
+}
+.wrapper section .news .phone .chongzhi .chongzhi_p_left img {
+  width: auto;
+  height: 25px;
+  background: none;
+}
+.wrapper section .news .phone .chongzhi .chongzhi_p_center {
+  font-size: 13px;
+  color: #343434;
+  -webkit-box-flex: 1;
+  padding-left: 30px;
+  line-height: 40px;
+}
+.wrapper section .news .phone .chongzhi .chongzhi_p_right {
+  position: absolute;
+  right: 11px;
+  top: 6px;
+}
+.wrapper section .news .phone .chongzhi .chongzhi_p_right img {
+  width: auto;
+  height: 25px;
+  background: none;
+}
+.wrapper section .news #but {
+  padding: 0 11px;
+}
+.wrapper section .news #but button {
+  margin-top: 20px;
+  display: inline-block;
+  width: 100%;
+  height: 30px;
+  background: #ff7f1c;
+  line-height: 30px;
+  border: none;
+  border-radius: 5px;
+  font-size: 18px;
+  color: #fcfeff;
+  outline: none;
+}
