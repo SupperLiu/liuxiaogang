@@ -1,0 +1,158 @@
+@import url("reset.css");
+/* line 11, login.less */
+html,
+body,
+.wrap {
+  width: 100%;
+  height: 100%;
+  background: none;
+  background-image: url(../img/denglu/a1.png);
+  background-size: 100%;
+}
+/* line 17, login.less */
+.wrap header {
+  padding-top: 65px;
+  width: 100%;
+  height: 232px;
+  background: none;
+  text-align: center;
+}
+/* line 23, login.less */
+.wrap header .login_h_center {
+  font: "微软雅黑";
+  font-size: 18px;
+  color: #4d4d4d;
+}
+/* line 27, login.less */
+.wrap header .login_h_center img {
+  width: auto;
+  height: 100px;
+  background: none;
+}
+/* line 34, login.less */
+.wrap section {
+  -webkit-box-flex: 1;
+}
+/* line 36, login.less */
+.wrap section .login_s_main {
+  width: 100%;
+  height: 45px;
+  background: none;
+  display: -webkit-box;
+  -webkit-box-orient: horizontal;
+}
+/* line 40, login.less */
+.wrap section .login_s_main .login_s_m_left {
+  width: 85px;
+  height: auto;
+  background: none;
+}
+/* line 42, login.less */
+.wrap section .login_s_main .login_s_m_left img {
+  width: 32.5px;
+  height: auto;
+  background: none;
+  margin-left: 30px;
+  margin-top: 3px;
+}
+/* line 48, login.less */
+.wrap section .login_s_main .login_s_m_right {
+  -webkit-box-flex: 1;
+}
+/* line 50, login.less */
+.wrap section .login_s_main .login_s_m_right input {
+  width: 80%;
+  height: 30px;
+  background: none;
+  border: none;
+  border-bottom: 3px solid #ff7d1b;
+  outline: none;
+}
+/* line 58, login.less */
+.wrap section .login_s_main2 {
+  width: 100%;
+  height: 45px;
+  background: none;
+  display: -webkit-box;
+  -webkit-box-orient: horizontal;
+  margin-top: 10px;
+}
+/* line 63, login.less */
+.wrap section .login_s_main2 .login_s_m_left2 {
+  width: 85px;
+  height: auto;
+  background: none;
+}
+/* line 65, login.less */
+.wrap section .login_s_main2 .login_s_m_left2 img {
+  width: 32.5px;
+  height: auto;
+  background: none;
+  margin-left: 30px;
+  margin-top: 3px;
+}
+/* line 71, login.less */
+.wrap section .login_s_main2 .login_s_m_right2 {
+  -webkit-box-flex: 1;
+  position: relative;
+}
+/* line 74, login.less */
+.wrap section .login_s_main2 .login_s_m_right2 input {
+  width: 80%;
+  height: 30px;
+  background: none;
+  border: none;
+  border-bottom: 3px solid #ff7d1b;
+  outline: none;
+}
+/* line 82, login.less */
+.wrap section .login_s_main3 {
+  width: 100%;
+  height: 45px;
+  background: none;
+  padding: 20px 20px;
+}
+/* line 85, login.less */
+.wrap section .login_s_main3 button {
+  width: 100%;
+  height: 45px;
+  background: #ff7d1b;
+  border: none;
+  color: white;
+  font-size: 25px;
+  border-radius: 9px;
+  outline: none;
+}
+/* line 94, login.less */
+.wrap section .login_s_main4 {
+  margin-top: 40px;
+  display: -webkit-box;
+  -webkit-box-orient: horizontal;
+}
+/* line 97, login.less */
+.wrap section .login_s_main4 .login_s_m4_left {
+  width: 90px;
+  height: 20px;
+  background: none;
+}
+/* line 99, login.less */
+.wrap section .login_s_main4 .login_s_m4_left a {
+  margin-left: 20px;
+  text-decoration: none;
+  color: #507daf;
+}
+/* line 106, login.less */
+.wrap section .login_s_main4 .login_s_m4_center {
+  -webkit-box-flex: 1;
+}
+/* line 109, login.less */
+.wrap section .login_s_main4 .login_s_m4_right {
+  width: 90px;
+  height: 20px;
+  background: none;
+}
+/* line 111, login.less */
+.wrap section .login_s_main4 .login_s_m4_right a {
+  text-decoration: none;
+  color: #507daf;
+}
