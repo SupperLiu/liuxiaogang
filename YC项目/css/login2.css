@@ -1,5 +1,5 @@
 @import url("reset.css");
-/* line 11, login22.less */
+/* line 11, login2.less */
 html,
 body,
 .wrap {
@@ -9,7 +9,7 @@ body,
   background-image: url(../img/denglu/a1.png);
   background-size: 100%;
 }
-/* line 17, login22.less */
+/* line 17, login2.less */
 .wrap header {
   padding-top: 65px;
   width: 100%;
@@ -17,23 +17,23 @@ body,
   background: none;
   text-align: center;
 }
-/* line 23, login22.less */
+/* line 23, login2.less */
 .wrap header .login2_h_center {
   font: "微软雅黑";
   font-size: 18px;
   color: #4d4d4d;
 }
-/* line 27, login22.less */
+/* line 27, login2.less */
 .wrap header .login2_h_center img {
   width: auto;
   height: 100px;
   background: none;
 }
-/* line 34, login22.less */
+/* line 34, login2.less */
 .wrap section {
   -webkit-box-flex: 1;
 }
-/* line 36, login22.less */
+/* line 36, login2.less */
 .wrap section .login2_s_main {
   width: 100%;
   height: 45px;
@@ -41,13 +41,13 @@ body,
   display: -webkit-box;
   -webkit-box-orient: horizontal;
 }
-/* line 40, login22.less */
+/* line 40, login2.less */
 .wrap section .login2_s_main .login2_s_m_left {
   width: 85px;
   height: auto;
   background: none;
 }
-/* line 42, login22.less */
+/* line 42, login2.less */
 .wrap section .login2_s_main .login2_s_m_left img {
   width: 32.5px;
   height: auto;
@@ -55,11 +55,11 @@ body,
   margin-left: 30px;
   margin-top: 3px;
 }
-/* line 48, login22.less */
+/* line 48, login2.less */
 .wrap section .login2_s_main .login2_s_m_right {
   -webkit-box-flex: 1;
 }
-/* line 50, login22.less */
+/* line 50, login2.less */
 .wrap section .login2_s_main .login2_s_m_right input {
   width: 80%;
   height: 30px;
@@ -68,7 +68,7 @@ body,
   border-bottom: 3px solid #ff7d1b;
   outline: none;
 }
-/* line 58, login22.less */
+/* line 58, login2.less */
 .wrap section .login2_s_main2 {
   width: 100%;
   height: 45px;
@@ -77,13 +77,13 @@ body,
   -webkit-box-orient: horizontal;
   margin-top: 10px;
 }
-/* line 63, login22.less */
+/* line 63, login2.less */
 .wrap section .login2_s_main2 .login2_s_m_left2 {
   width: 85px;
   height: auto;
   background: none;
 }
-/* line 65, login22.less */
+/* line 65, login2.less */
 .wrap section .login2_s_main2 .login2_s_m_left2 img {
   width: 32.5px;
   height: auto;
@@ -91,12 +91,12 @@ body,
   margin-left: 30px;
   margin-top: 3px;
 }
-/* line 71, login22.less */
+/* line 71, login2.less */
 .wrap section .login2_s_main2 .login2_s_m_right2 {
   -webkit-box-flex: 1;
   position: relative;
 }
-/* line 74, login22.less */
+/* line 74, login2.less */
 .wrap section .login2_s_main2 .login2_s_m_right2 input {
   width: 80%;
   height: 30px;
@@ -105,14 +105,14 @@ body,
   border-bottom: 3px solid #ff7d1b;
   outline: none;
 }
-/* line 82, login22.less */
+/* line 82, login2.less */
 .wrap section .login2_s_main3 {
   width: 100%;
   height: 45px;
   background: none;
   padding: 20px 20px;
 }
-/* line 85, login22.less */
+/* line 85, login2.less */
 .wrap section .login2_s_main3 button {
   width: 100%;
   height: 45px;
@@ -123,35 +123,35 @@ body,
   border-radius: 9px;
   outline: none;
 }
-/* line 94, login22.less */
+/* line 94, login2.less */
 .wrap section .login2_s_main4 {
   margin-top: 40px;
   display: -webkit-box;
   -webkit-box-orient: horizontal;
 }
-/* line 97, login22.less */
+/* line 97, login2.less */
 .wrap section .login2_s_main4 .login2_s_m4_left {
   width: 90px;
   height: 20px;
   background: none;
 }
-/* line 99, login22.less */
+/* line 99, login2.less */
 .wrap section .login2_s_main4 .login2_s_m4_left a {
   margin-left: 20px;
   text-decoration: none;
   color: #507daf;
 }
-/* line 106, login22.less */
+/* line 106, login2.less */
 .wrap section .login2_s_main4 .login2_s_m4_center {
   -webkit-box-flex: 1;
 }
-/* line 109, login22.less */
+/* line 109, login2.less */
 .wrap section .login2_s_main4 .login2_s_m4_right {
   width: 90px;
   height: 20px;
   background: none;
 }
-/* line 111, login22.less */
+/* line 111, login2.less */
 .wrap section .login2_s_main4 .login2_s_m4_right a {
   text-decoration: none;
   color: #507daf;
