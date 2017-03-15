@@ -56,53 +56,40 @@ body {
 }
 .wrapper section .news {
   width: 100%;
+  background: #f2f2f2;
+}
+.wrapper section .news p:nth-child(1) {
+  width: 100%;
+  height: 38px;
   background: #ffffff;
   margin-top: 5px;
-  padding-left: 11px;
-  border-bottom: 1px solid #bfbfbf;
-  border-top: 1px solid #bfbfbf;
+  padding: 0 11px;
+  border-top: 1px solid #cdcdcd;
+  border-bottom: 1px solid #cdcdcd;
+  line-height: 38px;
+  color: #666666;
+  font-size: 15px;
 }
-.wrapper section .news p {
+.wrapper section .news p:nth-child(1) input {
+  width: 70%;
+  border: none;
+  outline: none;
+}
+.wrapper section .news p:nth-child(2) {
+  padding: 0 11px;
+}
+.wrapper section .news p:nth-child(2) button {
+  margin-top: 20px;
+  display: inline-block;
   width: 100%;
-  height: 40px;
-  background: none;
-  padding-left: 30px;
-  border-bottom: 1px solid #bfbfbf;
-  position: relative;
-  line-height: 40px;
-  font-size: 14px;
-  color: #262626;
-}
-.wrapper section .news p .news_p_left {
-  width: 21px;
-  height: auto;
-  background: none;
-  position: absolute;
-  top: 8px;
-  left: 0px;
-}
-.wrapper section .news p .news_p_left1 {
-  width: 21px;
-  height: auto;
-  background: none;
-  position: absolute;
-  top: 13px;
-  left: 0px;
-}
-.wrapper section .news p .news_p_right {
-  width: 10px;
-  height: auto;
-  background: none;
-  position: absolute;
-  top: 12px;
-  right: 11px;
-}
-.wrapper section .news:nth-child(1) p:nth-child(2),
-.wrapper section .news:nth-child(3) p:nth-child(2) {
-  border-bottom: none;
-}
-.wrapper section .news:nth-child(2) p:nth-child(5) {
-  border-bottom: none;
+  height: 30px;
+  background: #ff7f1c;
+  line-height: 30px;
+  border: none;
+  border-radius: 5px;
+  font-size: 18px;
+  color: #fcfeff;
+  outline: none;
 }
 .wrapper footer {
   display: -webkit-box;
@@ -118,8 +105,8 @@ body {
   margin-top: 5px;
 }
 .wrapper footer dl dt img {
-  width: auto;
-  height: 22px;
+  width: 22px;
+  height: auto;
   background: none;
 }
 .wrapper footer dl dd {
@@ -132,6 +119,16 @@ body {
   background: none;
   margin-top: 5px;
 }
+.wrapper footer .click img {
+  width: auto;
+  height: 24px;
+  background: none;
+}
 .wrapper footer .click dd {
   color: #ff7f1c;
+}
+.wrapper footer .click1 img {
+  width: auto;
+  height: 24px;
+  background: none;
 }

@@ -1,0 +1,163 @@
+@import url("reset.css");
+/* line 11, shop_particulars.less */
+html,
+body,
+.wrap {
+  width: 100%;
+  height: 100%;
+  background: none;
+}
+/* line 14, shop_particulars.less */
+.wrap {
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+}
+/* line 16, shop_particulars.less */
+.wrap header {
+  display: -webkit-box;
+  -webkit-box-orient: horizontal;
+  width: 100%;
+  height: 45px;
+  background: #f7f7f7;
+}
+/* line 19, shop_particulars.less */
+.wrap header .shop_part_h_left {
+  width: 40px;
+  height: auto;
+  background: none;
+}
+/* line 21, shop_particulars.less */
+.wrap header .shop_part_h_left img {
+  width: 10px;
+  height: auto;
+  background: none;
+  margin-top: 14px;
+  margin-left: 11px;
+}
+/* line 27, shop_particulars.less */
+.wrap header .shop_part_h_center {
+  -webkit-box-flex: 1;
+  text-align: center;
+  line-height: 45px;
+}
+/* line 32, shop_particulars.less */
+.wrap header .shop_part_h_right {
+  width: 40px;
+  height: auto;
+  background: none;
+}
+/* line 34, shop_particulars.less */
+.wrap header .shop_part_h_right img {
+  width: 20px;
+  height: auto;
+  background: none;
+  margin-top: 13px;
+  margin-left: 11px;
+}
+/* line 41, shop_particulars.less */
+.wrap section {
+  -webkit-box-flex: 1;
+  background: #f2f2f2;
+}
+/* line 44, shop_particulars.less */
+.wrap section .shop_part_s_main {
+  width: 100%;
+  height: 95px;
+  background: #ffffff;
+  padding: 10px 10px ;
+}
+/* line 47, shop_particulars.less */
+.wrap section .shop_part_s_main .shop_part_s_m_1 {
+  color: #666666;
+  font-size: 12px;
+}
+/* line 52, shop_particulars.less */
+.wrap section .shop_part_s_main2 {
+  margin-top: 5px;
+  width: 100%;
+  height: 37.5px;
+  background: #ffffff;
+  line-height: 37.5px;
+  padding-left: 15px;
+}
+/* line 58, shop_particulars.less */
+.wrap section .shop_part_s_main3 {
+  display: -webkit-box;
+  -webkit-box-orient: horizontal;
+  margin-top: 5px;
+  padding: 8px 11px;
+  background: #FFFFFF;
+}
+/* line 64, shop_particulars.less */
+.wrap section .shop_part_s_main3 dl dt {
+  float: left;
+  margin-right: 5px;
+}
+/* line 67, shop_particulars.less */
+.wrap section .shop_part_s_main3 dl dt img {
+  width: auto;
+  height: 75px;
+  background: none;
+}
+/* line 71, shop_particulars.less */
+.wrap section .shop_part_s_main3 dl dd {
+  float: left;
+  width: 70%;
+  height: auto;
+  background: none;
+}
+/* line 74, shop_particulars.less */
+.wrap section .shop_part_s_main3 dl dd h4 {
+  line-height: 15px;
+  color: #262626;
+  font-size: 12px;
+}
+/* line 81, shop_particulars.less */
+.wrap section .shop_part_s_main3 dl dd > div ul li {
+  line-height: 16px;
+  color: #666666;
+  font-size: 11px;
+}
+/* line 87, shop_particulars.less */
+.wrap section .shop_part_s_main3 dl dd > div ul:nth-child(1) {
+  float: left;
+  width: 62%;
+  height: auto;
+  background: none;
+}
+/* line 91, shop_particulars.less */
+.wrap section .shop_part_s_main3 dl dd > div ul:nth-child(2) {
+  float: right;
+}
+/* line 99, shop_particulars.less */
+.wrap section .shop_part_s_main4 {
+  width: 100%;
+  height: 25px;
+  background: #ffffff;
+  text-align: right;
+  line-height: 25px;
+  padding-right: 10px;
+  border-top: 1px solid #f8f8f8;
+  border-bottom: 1px solid #f8f8f8;
+}
+/* line 106, shop_particulars.less */
+.wrap section .shop_part_s_main4 span {
+  color: #ff7d1b;
+}
+/* line 110, shop_particulars.less */
+.wrap section .shop_part_s_main5 {
+  width: 100%;
+  height: 26px;
+  background: #ffffff;
+  text-align: right;
+  line-height: 26px;
+  padding-right: 10px;
+}
+/* line 115, shop_particulars.less */
+.wrap section .shop_part_s_main5 span {
+  height: 34px;
+  border: 1px solid #ff7d1b;
+  border-radius: 5px;
+  font-size: 14px;
+  color: #ff7d1b;
+}

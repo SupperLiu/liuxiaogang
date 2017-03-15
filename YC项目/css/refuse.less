@@ -1,0 +1,67 @@
+@import url("reset.css");
+.full(@w,@h,@bg){
+    width: @w;
+    height: @h;
+    background: @bg;
+}
+.box(@ver){
+    display: -webkit-box;
+    -webkit-box-orient: @ver;
+}
+html,body,.wrap{
+    .full(100%,100%,none);
+}
+.wrap{
+    .box(vertical);
+    
+    header{
+        .box(horizontal);
+        .full(100%,45px,#f7f7f7);
+        border-bottom: 1px solid #bfbfbf;
+        .refuse_h_left{
+            .full(40px,auto,none);
+            img{
+                .full(10px,auto,none);
+                margin-top: 14px;
+                margin-left: 11px;
+            }
+        }
+         .refuse_h_center{
+            -webkit-box-flex: 1;
+            text-align: center;
+            line-height: 45px;
+        }
+         .refuse_h_right{
+            .full(40px,45px,none);
+            text-align: center;
+            line-height: 45px; 
+            margin-right: 5px;  
+       }
+    }
+    section{
+        -webkit-box-flex: 1;
+        background: #f2f2f2;
+        .refuse_s_main{
+            .full(100%,30px,#f2f2f2);
+            text-align: left;
+            line-height: 30px;
+            padding-left: 15px;
+        }
+        .refuse_s_main2{
+            padding: 0px 10px;
+          #text{
+             .full(100%,150px,#ffffff); 
+             border-radius: 10px;
+             outline: none;
+          }  
+        }
+        .refuse_s_main3{
+            .full(100%,90px,none);
+            padding: 0px 15px;
+            img{
+                .full(75px,auto,none);
+            }
+            
+        }
+    }
+}
