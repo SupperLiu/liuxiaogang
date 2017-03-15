@@ -1,0 +1,91 @@
+@import url("reset.css");
+/* line 11, refuse.less */
+html,
+body,
+.wrap {
+  width: 100%;
+  height: 100%;
+  background: none;
+}
+/* line 14, refuse.less */
+.wrap {
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+}
+/* line 17, refuse.less */
+.wrap header {
+  display: -webkit-box;
+  -webkit-box-orient: horizontal;
+  width: 100%;
+  height: 45px;
+  background: #f7f7f7;
+  border-bottom: 1px solid #bfbfbf;
+}
+/* line 21, refuse.less */
+.wrap header .refuse_h_left {
+  width: 40px;
+  height: auto;
+  background: none;
+}
+/* line 23, refuse.less */
+.wrap header .refuse_h_left img {
+  width: 10px;
+  height: auto;
+  background: none;
+  margin-top: 14px;
+  margin-left: 11px;
+}
+/* line 29, refuse.less */
+.wrap header .refuse_h_center {
+  -webkit-box-flex: 1;
+  text-align: center;
+  line-height: 45px;
+}
+/* line 34, refuse.less */
+.wrap header .refuse_h_right {
+  width: 40px;
+  height: 45px;
+  background: none;
+  text-align: center;
+  line-height: 45px;
+  margin-right: 5px;
+}
+/* line 41, refuse.less */
+.wrap section {
+  -webkit-box-flex: 1;
+  background: #f2f2f2;
+}
+/* line 44, refuse.less */
+.wrap section .refuse_s_main {
+  width: 100%;
+  height: 30px;
+  background: #f2f2f2;
+  text-align: left;
+  line-height: 30px;
+  padding-left: 15px;
+}
+/* line 50, refuse.less */
+.wrap section .refuse_s_main2 {
+  padding: 0px 10px;
+}
+/* line 52, refuse.less */
+.wrap section .refuse_s_main2 #text {
+  width: 100%;
+  height: 150px;
+  background: #ffffff;
+  border-radius: 10px;
+  outline: none;
+}
+/* line 58, refuse.less */
+.wrap section .refuse_s_main3 {
+  width: 100%;
+  height: 90px;
+  background: none;
+  padding: 0px 15px;
+}
+/* line 61, refuse.less */
+.wrap section .refuse_s_main3 img {
+  width: 75px;
+  height: auto;
+  background: none;
+}

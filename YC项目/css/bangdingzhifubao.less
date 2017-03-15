@@ -1,0 +1,111 @@
+@import url(reset.css);
+.full(@w,@h,@bg){
+    width: @w;
+    height: @h;
+    background: @bg;
+}
+.box(@ver:vertical){
+    display: -webkit-box;
+    -webkit-box-orient: @ver;
+}
+html,body{
+    width: 100%;
+    height: 100%;
+}
+.wrapper{
+    .full(100%,100%,#f2f2f2);
+    .box();
+    header{
+        .full(100%,45px,#f7f7f7);
+        .box(horizontal);
+        padding: 0 11px;
+        position: relative;
+        border-bottom: 1px solid #bfbfbf;
+        .bangding_h_left{
+            position: absolute;
+            left: 11px;
+            top: 13px;
+            img{
+                .full(auto,18px,none);
+            }
+        }
+        .bangding_h_center{
+            font-size: 16px;
+            color: #232323;
+            -webkit-box-flex: 1;
+            text-align: center;
+            line-height: 45px;
+            font-weight: bold;
+        }
+        .bangding_h_right{
+            position: absolute;
+            right: 11px;
+            top: 13px;
+            img{
+                .full(auto,18px,none);
+            }
+        }
+    }
+     section{
+        -webkit-box-flex: 1;
+        .box();
+        .news{
+            width: 100%;
+            background: #f2f2f2;
+            .zhifu{
+                margin-top: 5px;
+                border-top: 1px solid #cccccc;
+                border-bottom: 1px solid #cccccc;
+                padding-left: 11px;
+                background: #ffffff;
+                p:nth-child(1){
+                    .full(100%,38px,#ffffff);
+                    border-bottom: 1px solid #cccccc;
+                    line-height: 38px;
+                    color: #666666;
+                    font-size: 15px;
+                    input{
+                        width: 60%;
+                        border: none;
+                        outline: none;
+                    }
+                }
+                p:nth-child(2){
+                    .full(100%,38px,#ffffff);
+                    line-height: 38px;
+                    color: #666666;
+                    font-size: 15px;
+                    input{
+                        width: 35%;
+                        border: none;
+                        outline: none;
+                    }
+                    span{
+                        float: right;
+                        display: inline-block;
+                        .full(80px,38px,none);
+                        border-left: 1px solid #cccccc;
+                        text-align: center;
+                        font-size: 13px;
+                        color: #343434;
+                    }
+                }
+            }
+            #btn{
+                padding: 0 11px;
+                button{
+                    margin-top: 20px;
+                    display: inline-block;
+                    .full(100%,30px,#ff7f1c);
+                    line-height: 30px;
+                    border: none;
+                    border-radius: 5px;
+                    font-size: 18px;
+                    color: #fcfeff;
+                    outline: none;
+                }
+            }
+        }
+        
+    }
+}
