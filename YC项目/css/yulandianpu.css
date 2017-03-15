@@ -1,0 +1,244 @@
+@import url(reset.css);
+html,
+body {
+  width: 100%;
+  height: 100%;
+}
+.wrapper {
+  width: 100%;
+  height: 100%;
+  background: #f2f2f2;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+}
+.wrapper header {
+  width: 100%;
+  height: 45px;
+  background: #f7f7f7;
+  display: -webkit-box;
+  -webkit-box-orient: horizontal;
+  padding: 0 11px;
+  position: relative;
+  border-bottom: 1px solid #d9d9d9;
+}
+.wrapper header .chongzhi_h_left {
+  position: absolute;
+  left: 11px;
+  top: 13px;
+}
+.wrapper header .chongzhi_h_left img {
+  width: auto;
+  height: 18px;
+  background: none;
+}
+.wrapper header .chongzhi_h_center {
+  -webkit-box-flex: 1;
+  text-align: center;
+  line-height: 45px;
+  font-weight: bold;
+  font-size: 17px;
+  color: #090909;
+}
+.wrapper header .chongzhi_h_center .click {
+  height: 100%;
+  color: #f87f24;
+  border-bottom: 2px solid #f87f24;
+}
+.wrapper header .chongzhi_h_right {
+  position: absolute;
+  top: 13px;
+  right: 11px;
+}
+.wrapper header .chongzhi_h_right img {
+  width: 19px;
+  height: auto;
+  background: none;
+}
+.wrapper section {
+  -webkit-box-flex: 1;
+  overflow-y: auto;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+}
+.wrapper section::-webkit-scrollbar {
+  width: 0;
+}
+.wrapper section #img {
+  width: 100%;
+  height: auto;
+  background: none;
+}
+.wrapper section #bgi {
+  display: -webkit-box;
+  -webkit-box-orient: horizontal;
+  position: relative;
+  width: 100%;
+  height: auto;
+  background: #ffffff;
+}
+.wrapper section #bgi #bg {
+  width: 100%;
+  height: auto;
+  background: none;
+}
+.wrapper section #bgi #dl {
+  padding-right: 0px;
+  position: absolute;
+  bottom: 40px;
+  left: 11px;
+  display: -webkit-box;
+  -webkit-box-orient: horizontal;
+  width: 94%;
+  height: auto;
+  background: none;
+}
+.wrapper section #bgi #dl dt {
+  margin-right: 5px;
+}
+.wrapper section #bgi #dl dt img {
+  width: 45px;
+  height: auto;
+  background: none;
+}
+.wrapper section #bgi #dl dd {
+  -webkit-box-flex: 1;
+}
+.wrapper section #bgi #dl dd h2 {
+  font-size: 12px;
+  color: #ffffff;
+}
+.wrapper section #bgi #dl dd h2 span {
+  width: 45px;
+  height: 14px;
+  background: #ff4808;
+  display: inline-block;
+  font-size: 9px;
+  border-radius: 5px;
+  line-height: 15px;
+  text-align: center;
+}
+.wrapper section #bgi #dl dd p {
+  margin-top: 5px;
+  font-size: 9px;
+  color: #ffffff;
+}
+.wrapper section #bgi #dl dd p img {
+  width: 11px;
+  height: auto;
+  background: none;
+}
+.wrapper section #bgi #dl dd p span {
+  float: right;
+}
+.wrapper section #bgi #dl dd p span img {
+  width: 50px;
+  height: auto;
+  background: none;
+}
+.wrapper section #bgi > div {
+  position: absolute;
+  bottom: 5px;
+  display: -webkit-box;
+  -webkit-box-orient: horizontal;
+  width: 100%;
+  height: 40px;
+  background: #cccccc;
+  opacity: 0.9;
+}
+.wrapper section #bgi > div dl {
+  text-align: center;
+  -webkit-box-flex: 1;
+  font-size: 9px;
+  color: #343434;
+  margin-top: 4px;
+  font-weight: bold;
+}
+.wrapper section #bgi > div dl img {
+  width: 18px;
+  height: auto;
+  background: none;
+}
+.wrapper section #bgi > div dl dd {
+  margin-top: 3px;
+}
+.wrapper section #bgi > div .click {
+  color: #ff7c27;
+  border-bottom: 1px solid #ff7c27;
+}
+.wrapper section .news {
+  width: 100%;
+  margin-top: 5px;
+  padding: 0 11px;
+  display: -webkit-box;
+  -webkit-box-orient: horizontal;
+}
+.wrapper section .news dl {
+  background: #FFFFFF;
+  text-align: center;
+  -webkit-box-flex: 1;
+}
+.wrapper section .news dl dt img {
+  width: auto;
+  height: 174px;
+  background: none;
+}
+@media screen and (min-width: 320px) and (max-width: 360px) {
+  .wrapper section .news dl dt img {
+    width: auto;
+    height: 146px;
+    background: none;
+  }
+}
+.wrapper section .news dl dd {
+  padding: 6px 5px 6px 5px;
+  width: 100%;
+  height: auto;
+  background: none;
+}
+.wrapper section .news dl dd h3 {
+  font-size: 12px;
+  color: #262626;
+  text-align: left;
+  line-height: 16px;
+}
+.wrapper section .news dl dd p {
+  margin-top: 8px;
+  font-size: 12px;
+  color: #ff7f1c;
+  text-align: left;
+}
+.wrapper section .news dl dd p span {
+  float: right;
+  font-size: 9px;
+  color: #a5a5a5;
+}
+.wrapper footer {
+  width: 100%;
+  height: 50px;
+  background: #ffffff;
+  margin-top: 3px;
+  line-height: 40px;
+  padding: 5px 0;
+  border-top: 2px solid #bebebe;
+}
+.wrapper footer ul {
+  display: -webkit-box;
+  -webkit-box-orient: horizontal;
+}
+.wrapper footer ul li {
+  -webkit-box-flex: 1;
+  text-align: center;
+  font-size: 17px;
+  color: #353535;
+  font-weight: bold;
+  border-left: 1px solid #d9d9d9;
+}
+.wrapper footer ul li img {
+  width: 18px;
+  height: auto;
+  background: none;
+  margin-right: 15px;
+}
+.wrapper footer ul li:nth-child(1) {
+  border-left: none;
+}

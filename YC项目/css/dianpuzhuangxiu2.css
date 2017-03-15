@@ -1,0 +1,110 @@
+@import url(reset.css);
+html,
+body {
+  width: 100%;
+  height: 100%;
+}
+.wrapper {
+  width: 100%;
+  height: 100%;
+  background: #f2f2f2;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+}
+.wrapper header {
+  width: 100%;
+  height: 45px;
+  background: #f7f7f7;
+  display: -webkit-box;
+  -webkit-box-orient: horizontal;
+  padding: 0 11px;
+  position: relative;
+  border-bottom: 1px solid #d9d9d9;
+}
+.wrapper header .chongzhi_h_left {
+  position: absolute;
+  left: 11px;
+  top: 13px;
+}
+.wrapper header .chongzhi_h_left img {
+  width: auto;
+  height: 18px;
+  background: none;
+}
+.wrapper header .chongzhi_h_center {
+  -webkit-box-flex: 1;
+  text-align: center;
+  line-height: 45px;
+  font-weight: bold;
+  font-size: 17px;
+  color: #090909;
+}
+.wrapper header .chongzhi_h_center .click {
+  height: 100%;
+  color: #f87f24;
+  border-bottom: 2px solid #f87f24;
+}
+.wrapper header .chongzhi_h_right {
+  position: absolute;
+  top: 13px;
+  right: 11px;
+  font-size: 15px;
+  color: #313131;
+}
+.wrapper section {
+  -webkit-box-flex: 1;
+  overflow-y: auto;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+}
+.wrapper section::-webkit-scrollbar {
+  width: 0;
+}
+.wrapper section .news {
+  width: 100%;
+  margin-top: 5px;
+  background: #FFFFFF;
+}
+.wrapper section .news h3 {
+  width: 100%;
+  height: 30px;
+  background: none;
+  line-height: 30px;
+  font-size: 14px;
+  color: #333333;
+  font-weight: bold;
+  padding: 0 11px;
+}
+.wrapper section .news img {
+  width: 100%;
+  height: auto;
+  background: none;
+}
+.wrapper footer {
+  width: 100%;
+  height: 50px;
+  background: #ffffff;
+  line-height: 40px;
+  padding: 5px 0;
+  border-top: 2px solid #bebebe;
+}
+.wrapper footer ul {
+  display: -webkit-box;
+  -webkit-box-orient: horizontal;
+}
+.wrapper footer ul li {
+  -webkit-box-flex: 1;
+  text-align: center;
+  font-size: 17px;
+  color: #353535;
+  border-left: 1px solid #d9d9d9;
+}
+.wrapper footer ul li img {
+  width: 18px;
+  height: auto;
+  background: none;
+  margin-right: 15px;
+}
+.wrapper footer ul li:nth-child(1) {
+  border-left: none;
+}

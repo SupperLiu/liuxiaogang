@@ -1,0 +1,130 @@
+@import url(reset.css);
+html,
+body {
+  width: 100%;
+  height: 100%;
+}
+.wrapper {
+  width: 100%;
+  height: 100%;
+  background: #f2f2f2;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+}
+.wrapper header {
+  width: 100%;
+  height: 45px;
+  background: #f7f7f7;
+  display: -webkit-box;
+  -webkit-box-orient: horizontal;
+  padding: 0 11px;
+  position: relative;
+  border-bottom: 1px solid #d9d9d9;
+}
+.wrapper header .chongzhi_h_left {
+  position: absolute;
+  left: 11px;
+  top: 13px;
+}
+.wrapper header .chongzhi_h_left img {
+  width: auto;
+  height: 18px;
+  background: none;
+}
+.wrapper header .chongzhi_h_center {
+  -webkit-box-flex: 1;
+  text-align: center;
+  line-height: 45px;
+  font-weight: bold;
+  font-size: 17px;
+  color: #090909;
+}
+.wrapper header .chongzhi_h_center .click {
+  height: 100%;
+  color: #f87f24;
+  border-bottom: 2px solid #f87f24;
+}
+.wrapper header .chongzhi_h_right {
+  position: absolute;
+  top: 13px;
+  right: 11px;
+  font-size: 15px;
+  color: #313131;
+}
+.wrapper section {
+  -webkit-box-flex: 1;
+  overflow-y: auto;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+}
+.wrapper section::-webkit-scrollbar {
+  width: 0;
+}
+.wrapper section #bgi {
+  width: 100%;
+  height: 40px;
+  background: #ffffff;
+  padding: 5px 11px;
+}
+.wrapper section #bgi > div {
+  width: 100%;
+  height: 30px;
+  background: #e4e4e4;
+  border-radius: 5px;
+  position: relative;
+  padding-left: 36px;
+}
+.wrapper section #bgi > div img {
+  width: 17px;
+  height: auto;
+  background: none;
+  position: absolute;
+  top: 7px;
+  left: 10px;
+}
+.wrapper section #bgi > div input {
+  width: 90%;
+  height: 100%;
+  background: none;
+  border: none;
+  outline: none;
+}
+.wrapper section .news {
+  width: 100%;
+  margin-top: 5px;
+  background: #FFFFFF;
+  padding: 8px 11px;
+}
+.wrapper section .news dl dt {
+  float: left;
+  margin-right: 8px;
+}
+.wrapper section .news dl dt img {
+  width: 75px;
+  height: auto;
+  background: none;
+}
+@media screen and (min-width: 320px) and (max-width: 360px) {
+  .wrapper section .news dl dt img {
+    width: 65px;
+    height: auto;
+    background: none;
+  }
+}
+.wrapper section .news dl dd {
+  width: 75%;
+  height: auto;
+  background: none;
+  float: left;
+}
+.wrapper section .news dl dd h4 {
+  font-size: 12px;
+  color: #1e1e1e;
+  font-weight: bold;
+}
+.wrapper section .news dl dd h5 {
+  text-align: right;
+  color: #f07c19;
+  font-size: 12px;
+  margin-top: 20px;
+}

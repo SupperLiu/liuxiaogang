@@ -1,0 +1,70 @@
+@import url(reset.css);
+.full(@w,@h,@bg){
+    width: @w;
+    height: @h;
+    background: @bg;
+}
+.box(@ver:vertical){
+    display: -webkit-box;
+    -webkit-box-orient: @ver;
+}
+html,body{
+    width: 100%;
+    height: 100%;
+}
+.wrapper{
+    .full(100%,100%,#f2f2f2);
+    .box();
+    header{
+        .full(100%,45px,#f7f7f7);
+        .box(horizontal);
+        padding: 0 11px;
+        position: relative;
+        border-bottom: 1px solid #bfbfbf;
+        .chongzhi_h_left{
+            position: absolute;
+            left: 11px;
+            top: 13px;
+            img{
+                .full(auto,18px,none);
+            }
+        }
+        .chongzhi_h_center{
+            font-size: 16px;
+            color: #232323;
+            -webkit-box-flex: 1;
+            text-align: center;
+            line-height: 45px;
+            font-weight: bold;
+        }
+    }
+    section{
+        -webkit-box-flex: 1;
+        .box();
+        .news{
+            width: 100%;
+            padding: 0 28px;
+            dl{
+                text-align: center;
+                -webkit-box-flex: 1;
+                margin-top: 70px;
+                img{
+                    .full(105px,auto,none);
+                }
+                dd{
+                    font-size: 20px;
+                    color: #333333;
+                    font-weight: bold;
+                    margin-top: 33px;
+                }
+            }
+            p{
+                font-size: 15px;
+                color: #989898;
+                font-weight: bold;
+                margin-top: 15px;
+                line-height: 23px;
+            }
+        }
+    }
+}

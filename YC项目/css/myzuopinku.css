@@ -1,0 +1,92 @@
+@import url(reset.css);
+html,
+body {
+  width: 100%;
+  height: 100%;
+}
+.wrapper {
+  width: 100%;
+  height: 100%;
+  background: #f2f2f2;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+}
+.wrapper header {
+  width: 100%;
+  height: 45px;
+  background: #f7f7f7;
+  display: -webkit-box;
+  -webkit-box-orient: horizontal;
+  padding: 0 11px;
+  position: relative;
+  border-bottom: 1px solid #bfbfbf;
+}
+.wrapper header .chongzhi_h_left {
+  position: absolute;
+  left: 11px;
+  top: 13px;
+}
+.wrapper header .chongzhi_h_left img {
+  width: auto;
+  height: 18px;
+  background: none;
+}
+.wrapper header .chongzhi_h_center {
+  font-size: 16px;
+  color: #232323;
+  -webkit-box-flex: 1;
+  text-align: center;
+  line-height: 45px;
+  font-weight: bold;
+}
+.wrapper section {
+  -webkit-box-flex: 1;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+}
+.wrapper section .news {
+  width: 100%;
+  margin-bottom: 20px;
+}
+.wrapper section .news .p {
+  width: 100%;
+  height: 40px;
+  background: #ffffff;
+  color: #262626;
+  font-size: 13px;
+  border-bottom: 1px solid #F2F2F2;
+  padding: 0 11px;
+  line-height: 40px;
+  position: relative;
+}
+.wrapper section .news .p img {
+  width: 17px;
+  height: auto;
+  background: none;
+  position: absolute;
+  top: 12px;
+  right: 11px;
+}
+.wrapper section .news #but {
+  padding: 0 11px;
+}
+.wrapper section .news #but button {
+  display: inline-block;
+  width: 100%;
+  height: 30px;
+  background: #ff7f1c;
+  line-height: 30px;
+  border: none;
+  border-radius: 5px;
+  font-size: 18px;
+  color: #fcfeff;
+  outline: none;
+}
+.wrapper section .news:nth-child(2) {
+  padding: 0 11px;
+}
+.wrapper section .news:nth-child(2) p {
+  font-size: 11px;
+  color: #9c9c9c;
+  line-height: 17px;
+}
