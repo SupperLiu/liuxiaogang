@@ -1,15 +1,18 @@
 <!DOCTYPE html>
-<html>
-	<head>
+<html ng-app="myapp">
+	<head ui-view>
 		<meta charset="UTF-8">
 		<meta name="viewport" content="initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
 		<link rel="stylesheet" type="text/css" href="css/pwdreset.css"/>
+		<script src="js/angular.min.js" type="text/javascript" charset="utf-8"></script>
+		<script src="js/angular-ui-router.min.js"></script>
+		<script src="js/app.js" ></script>
 		<title>密码重置</title>
 	</head>
 	<body>
 		<div class="wrap">
 			<header>
-				<div class="pwdreset_h_left">
+				<div ui-sref='login' class="pwdreset_h_left">
 					<img src="img/finance/bind_03.png"/>
 				</div>
 				<div class="pwdreset_h_right">
@@ -32,7 +35,7 @@
 					</div>
 				</div>
 				<div class="pwdreset_s_main2">
-					<button>注册</button>
+					<button>修改</button>
 				</div>
 			</section>
 		</div>
